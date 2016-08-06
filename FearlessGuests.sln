@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D0D4C24F-4285-49FF-941A-ADF8AA5D196C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "project", "project", "{78C044CB-D276-450B-92C9-15EA1419B79F}"
+	ProjectSection(SolutionItems) = preProject
+		mod.json = mod.json
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FearlessGuests", "src\FearlessGuests\FearlessGuests.csproj", "{A782F980-0049-4D71-86B2-B811716107C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A782F980-0049-4D71-86B2-B811716107C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A782F980-0049-4D71-86B2-B811716107C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A782F980-0049-4D71-86B2-B811716107C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A782F980-0049-4D71-86B2-B811716107C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A782F980-0049-4D71-86B2-B811716107C9} = {D0D4C24F-4285-49FF-941A-ADF8AA5D196C}
+	EndGlobalSection
+EndGlobal
