@@ -1,8 +1,0 @@
-{
-  "Name": "Fearless Guests",
-  "IsDevelopment": false,
-  "IsEnabled": true,
-  "BaseDir": "src/FearlessGuests",
-  "Project": "FearlessGuests.csproj",
-  "CompilerVersion": "v3.5"
-}
